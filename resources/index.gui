@@ -1,1 +1,3 @@
-<svg></svg>
+<svg>
+    <image id="image" class="size" href="img/dog1.jpeg" />
+</svg>
