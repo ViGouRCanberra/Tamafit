@@ -1,3 +1,9 @@
 <svg>
-    <image id="image" class="size" href="img/dog1.jpeg" />
+    <!-- TODO Create proper background img -->
+    <rect class="background" x="0" y="0" width="348" height="250" />
+    <image id="image" class="background" href="img/spot-sit.png" />
+    <svg>
+        <image id="food" href="img/food.png" />
+        <use id="food-btn" href="#push-button" x="10" y="5" width="52" height="39" opacity="0.0"></use>
+    </svg>
 </svg>

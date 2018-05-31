@@ -1,10 +1,21 @@
 {
   "fitbit": {
+    "appUUID": "b9d66ebb-669c-43ef-9438-a2186044483c",
     "appType": "app",
-    "wipeColor": "#607d8b",
+    "appDisplayName": "Tamafit",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#2196f3",
+    "requestedPermissions": [
+      "access_activity"
+    ],
     "buildTargets": [
       "higgs",
       "meson"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "name": "Tamafit"
+      }
+    }
   }
 }

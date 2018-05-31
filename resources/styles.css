@@ -1,11 +1,10 @@
 .defaultText {
-  font-size: 32;
-  font-family: System-Regular;
-  font-weight: regular;
-  text-length: 32;
+    font-size: 32;
+    font-family: System-Regular;
+    font-weight: regular;
+    text-length: 32;
 }
 
-.size {
-  width: 200px;
-  height: 140px;
+.background {
+    fill: deepskyblue;
 }
