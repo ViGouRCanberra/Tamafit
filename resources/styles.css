@@ -1,10 +1,49 @@
-.defaultText {
-    font-size: 32;
-    font-family: System-Regular;
+.navigation-text {
+    font-size: 16;
+    font-family: Seville-Condensed;
     font-weight: regular;
     text-length: 32;
 }
 
+.alertText {
+    font-size: 22;
+    font-family: Seville-Condensed;
+    font-weight: regular;
+    text-length: 32;
+    text-anchor: middle;
+}
+
+.alertBox {
+    fill: white;
+}
+
 .background {
+    fill: deepskyblue;
+}
+
+.hidden {
+    display: none;
+}
+
+#steps {
+    font-size: 20;
+    font-family: Seville-Condensed;
+    font-weight: regular;
+    text-length: 32;
+}
+
+/* STATS SCREEN */
+.text {
+    font-size: 22;
+    font-family: Seville-Condensed;
+    font-weight: regular;
+    text-length: 32;
+}
+
+.textBox {
+    fill: white;
+}
+
+#stats-container {
     fill: deepskyblue;
 }

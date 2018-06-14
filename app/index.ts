@@ -1,5 +1,5 @@
-import { Spot } from "tamas/spot.ts";
-import { GUI } from "interface/gui.ts";
+import { Spot } from "src/tamas/spot.ts";
+import { Engine } from "src/tamaController.ts";
 
 let myTama = new Spot();
-let gui = new GUI(myTama);
+let engine = new Engine(myTama);

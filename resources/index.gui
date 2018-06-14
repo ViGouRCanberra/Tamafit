@@ -1,9 +1,33 @@
 <svg>
-    <!-- TODO Create proper background img -->
-    <rect class="background" x="0" y="0" width="348" height="250" />
-    <image id="image" class="background" href="img/spot-sit.png" />
-    <svg>
-        <image id="food" href="img/food.png" />
-        <use id="food-btn" href="#push-button" x="10" y="5" width="52" height="39" opacity="0.0"></use>
-    </svg>
+    <use id="container" href="#panoramaview">
+        <use id="item1" href="#panoramaview-item">
+            <!-- TODO Create proper background img -->
+            <rect class="background" x="0" y="0" width="348" height="250" />
+            <image id="image" class="background" href="" />
+            <text class="navigation-text" x="308" y="245">stats &gt;</text>
+            <svg>
+                <image id="stepsImg" href="img/feet.png" x="10" y="220" width="16" height="16" />
+                <text id="steps" x="30" y="235"></text>
+                <image id="food" href="img/food.png" x="10" width="63" height="49" />
+                <use id="food-btn" href="#push-button" x="10" width="63" height="49" opacity="0.0"></use>
+            </svg>
+            <svg id="alertMessageContainer" class="hidden">
+                <rect class="alertBox" y="79" width="348" height="27" />
+                <text id="alertMessage" class="alertText" x="174" y="100">...</text>
+            </svg>
+        </use>
+        <use id="item2" href="#panoramaview-item">
+            <rect id="stats-container" x="0" y="0" width="348" height="250" />
+            <rect class="textBox" y="7" width="348" height="27" />
+            <text class="text" x="145" y="28">Status</text>
+            <svg class="hunger-stats">
+                <image href="img/food.png" x="6" y="50" width="63" height="49" />
+                <image href="img/sad.png" x="72" y="58" width="33" height="33" />
+                <image href="img/happy.png" x="295" y="58" width="34" height="34" />
+                <rect x="113" y="67" width="175" height="15" fill="#12AAFF" />
+                <rect id="hungerBar" x="113" y="67" width="175" height="15" fill="whitesmoke" />
+            </svg>
+            <text class="navigation-text" x="5" y="245">&lt; tama</text>
+        </use>
+    </use>
 </svg>
